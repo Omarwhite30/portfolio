@@ -58,14 +58,14 @@ const Home = () => {
 
   return (
     <div style={{ backgroundColor: '#ADD8E6', minHeight: '100vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-      <h1 style={{ textAlign: 'center', color: '#FFFFFF',  marginTop: '2rem', marginRight: '105rem', fontSize: '33px'}}>Omar A. White</h1>
-      <div style={{ backgroundColor: '#FFFFFF', borderRadius: '40px', padding: '1rem', margin: '40rem', textAlign: 'center', marginRight:'10rem', marginTop: '9rem'}}>
+      <h1 style={{ textAlign: 'center', color: '#FFFFFF',  marginRight: '100rem', fontSize: '33px'}}>Omar A. White</h1>
+      <div style={{ backgroundColor: '#FFFFFF', borderRadius: '40px', padding: '1rem', margin: '40rem', textAlign: 'center', marginRight:'55rem', marginTop: '3rem'}}>
         <p>
           Hello and welcome to my portfolio. I am a Software Developer and military veteran. Here is where you'll be able to stay up to date with me. I have links to projects and contact info for you to get in touch with me. Have a look around, and please don't be afraid to reach out. Enjoy your day!
         </p>
       </div>
       {/* Add your profile picture and contact information */}
-      <footer style={{ marginTop: '2rem' }}>
+      <footer style={{ marginLeft: '100rem' }}>
         <a href="https://github.com/omarwhite30" target="_blank" rel="noreferrer" style={{ color: '#000000', marginRight: '1rem' }}>
           <FaGithub size={32} />
         </a>
