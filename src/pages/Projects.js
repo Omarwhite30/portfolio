@@ -19,7 +19,7 @@ const Projects = () => {
     <div>
       <h1>My Projects</h1>
       {/* Display your projects with descriptions and links */}
-      <Link to="/Home"> Home </Link>
+      <Link to="./Home"> Home </Link>
       <footer style={{ marginLeft: '80rem' }}>
         <a href="https://github.com/omarwhite30" target="_blank" rel="noreferrer" style={{ color: 'white', marginRight: '1rem' }}>
           <FaGithub size={32} />
